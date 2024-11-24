@@ -12,7 +12,7 @@ html {
   
   /* Landing Page styles */
   .landing-page {
-    background: url('../landing-page-background-image.jpg') no-repeat center center/cover;
+    background: url('landing-page-background-image.jpg') no-repeat center center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
