@@ -3,6 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
     height: 100%;
+    background: url('landing-page-background-image.jpg');
+    background-size: cover;
+    background-position: center;
   }
 
   /* Enable smooth scrolling across the entire page */
