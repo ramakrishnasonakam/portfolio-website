@@ -6,6 +6,15 @@ body, html {
     background: url('landing-page-background-image.jpg');
     background-size: cover;
     background-position: center;
+
+body {
+  background-image: url('landing-page-background-image.jpg');
+  background-size: cover;       /* Ensures the image covers the entire screen */
+  background-position: center;  /* Keeps the image centered */
+  background-repeat: no-repeat; /* Prevents repeating the image */
+  height: 100vh;                /* Ensures the body has a height to show the image */
+}
+
   }
 
   /* Enable smooth scrolling across the entire page */
