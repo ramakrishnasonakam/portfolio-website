@@ -1,0 +1,119 @@
+/* General styles for body and html */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+
+  /* Enable smooth scrolling across the entire page */
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Landing Page styles */
+  .landing-page {
+    background: url('../landing-page-background-image.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Adjust transparency */
+  }
+  
+  .content {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .btn-learn-more {
+    color: white;
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .btn-learn-more:hover {
+    background: white;
+    color: black;
+  }
+
+  /* About Me Section styles */
+/* About Me Section styles */
+.about-me {
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    background: #ffffff; /* Smooth white background */
+    color: #333333; /* Vibrant yet readable grey font */
+    font-family: "Georgia", serif; /* Elegant and professional font */
+    padding: 0 20px; /* Padding to ensure content doesn't touch edges */
+    text-align: center; /* Center-align text */
+    position: relative; /* Allow absolute positioning for fine-tuning */
+  }
+  
+  .about-me h2 {
+    font-size: 2.5rem;
+    font-weight: bold; /* Ensures heading is bold */
+    margin-bottom: 20px; /* Space between heading and paragraph */
+  }
+  
+  .about-me p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px; /* Limit width for better readability */
+    margin: 0; /* Remove default margin */
+    padding: 0 20px; /* Padding to avoid content touching edges */
+    text-align: left; /* Align text to the left */
+    position: relative; /* Allow relative positioning to shift it */
+    left: 153px; /* Shift content 2 tab spaces to the right (adjust this value if necessary) */
+    display: block; /* Ensure it takes up space and respects margin */
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .about-me h2 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+    }
+  
+    .about-me p {
+      font-size: 1rem; /* Adjust paragraph size for smaller screens */
+      left: 20
+    }
+
+/* Contact me */
+
+.small-footer {
+  background-color: #000; /* Black background for smooth flow */
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer-icon {
+  color: #fff; /* White icons for contrast */
+  font-size: 1.5rem; /* Icon size */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #bbb; /* Light grey on hover */
+  transform: scale(1.1); /* Subtle zoom effect */
+}
+
